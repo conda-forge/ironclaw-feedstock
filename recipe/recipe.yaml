@@ -42,6 +42,8 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - cargo-auditable
+    - nodejs
+    - pnpm
 
 tests:
   - script:
